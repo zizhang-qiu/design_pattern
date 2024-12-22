@@ -3,7 +3,6 @@ project(design_pattern)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(design_pattern main.cpp)
 add_executable(factory factory.cc)
 add_executable(abstract_factory abstract_factory.cc)
 add_executable(builder builder.cc)
